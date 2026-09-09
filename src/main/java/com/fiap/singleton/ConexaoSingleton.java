@@ -8,8 +8,8 @@ import java.sql.Statement;
 
 public class ConexaoSingleton {
     private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
-    private static final String USUARIO = "RMXXXXXX";
-    private static final String SENHA = "XXXXXX";
+    private static final String USUARIO = "rm562573";
+    private static final String SENHA = "041106";
 
     private static ConexaoSingleton instancia;
     private final Connection conexao;
